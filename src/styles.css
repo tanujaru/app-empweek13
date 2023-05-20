@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(216, 206, 206);
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .section {
+    border: 3px solid rgb(14, 13, 13);
+  }
+  
+  #silhouette {
+    width: 350px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+  
+  #silhouette2 {
+    width: 375px;
+    height: 175px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  .employeeCard {
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: left;
+    padding: 1rem;
+    }
+    
+    .employeeName {
+      grid-area: 1 / 2 / 2 / 3;
+      font-weight: bold;
+    }
+    
+    .employeePicture {
+      grid-area: 1 / 1 / 3 / 2;
+      padding-left: 1rem;
+    }
+    
+    .employeeDetails {
+      grid-area: 2 / 2 / 3 / 3;
+    }
+  
+    #searchBar {
+      padding: .1rem;
+      background-color:lightblue;
+    }
+  
+    #searchBarField {
+      width: 95%;
+      height: 10%;
+      padding: .5rem;
+      border-radius: 3px;
+    }
+  
+  #homeContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    /* background-color: rgb(184, 206, 255); */
+  } 
+  
+  #leftSide {
+      width: 200%;
+      overflow:auto;
+      background-color: white;
+    }
+  
+    #rightSide {
+      width: 200%;
+      height: 100vh;
+      /* background-color: rgb(119, 160, 250); */
+      background-color: white;
+      color: rgb(19, 19, 20);
+    }
+    .empdetail{
+    color: black;
+    }
+  
+    #empPageHeader {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: stretch;
+      background-color: white;  
+      color: black;
+    }
+  
+    #backBtn {
+      margin: 1.5rem;
+      padding: .25rem;
+      height: 2rem;
+      float: left;
+    }
+  
