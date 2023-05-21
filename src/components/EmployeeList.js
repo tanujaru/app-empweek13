@@ -1,6 +1,9 @@
 import EmployeeListItem from "./EmployeeListItem"
-//import '../styles.css'
+import '../styles.css'
 import employeeList from "../data"
+
+
+
 
 const list = employeeList.map((element, index) => {
   return (
@@ -14,6 +17,7 @@ export default function EmployeeList() {
   return (
     <>
     <div>
+      
     {list}
     </div>
     </>

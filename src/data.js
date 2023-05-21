@@ -1,9 +1,10 @@
 
 
+
 export default [
     {
       id: "1",
-      pic: "image.jpg",
+      pic:"https://previews.123rf.com/images/jemastock/jemastock1711/jemastock171107938/89825664-businessman-executive-cartoon-icon.jpg",
       firstName: "Jane",
       lastName: "smith",
       title: "Executive Assistant",
@@ -12,7 +13,8 @@ export default [
     },
     {
       id: "2",
-      pic: "image.jpg",
+      pic: "https://cdn.pixabay.com/photo/2018/08/04/10/23/man-3583424_960_720.jpg",
+
       firstName: "Nuthan",
       lastName: "Danial",
       title: "Technology Officer",
@@ -22,7 +24,7 @@ export default [
     },
     {
       id: "3",
-      pic: "image.jpg",
+      pic: "https://previews.123rf.com/images/jemastock/jemastock1711/jemastock171107938/89825664-businessman-executive-cartoon-icon.jpg",
       firstName: "Alexander",
       lastName: "Jacobs",
       title: "Administrative officer",
@@ -32,7 +34,7 @@ export default [
     },
     {
       id: "4",
-      pic: "image.jpg",
+      pic: "https://static.vecteezy.com/system/resources/previews/002/406/611/original/business-man-cartoon-character-vector.jpg",
       firstName: "Tony",
       lastName: "Smith",
       title: "Software Engineer",
